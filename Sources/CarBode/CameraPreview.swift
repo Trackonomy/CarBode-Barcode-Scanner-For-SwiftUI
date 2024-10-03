@@ -163,7 +163,7 @@ public class CameraPreview: UIView {
                 previewLayer?.removeFromSuperlayer()
                 self.session = session
                 self.selectedCamera = selectedCamera
-                self.backgroundColor = UIColor.gray
+                self.backgroundColor = UIColor.black
                 
                 DispatchQueue.global().async {
                     Thread.sleep(forTimeInterval: 0.2)
